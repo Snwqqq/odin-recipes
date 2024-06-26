@@ -1,0 +1,1 @@
+n this project, I will demonstrate my knowledge of HTML. I will create a good HTML structure and write clean code. Also, I will practice my Git skills, including atomic commits, creating repos, copying, and committing the project. Later, I will style it with CSS and create a basic, professionally looking recipe website!
