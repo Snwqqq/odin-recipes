@@ -39,6 +39,9 @@ header{
     justify-content: center;
     align-items: end;
 }
+.top-searchbar:focus{
+    outline: none;
+}
 .search-icon{
     width: 25px;
 }
