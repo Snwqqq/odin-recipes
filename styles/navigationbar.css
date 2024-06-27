@@ -17,15 +17,16 @@
 
 .navigation-menu:hover{
     background-color: rgb(255, 196, 4);
-    padding: 5px;
+    padding: 5px 40px;
     color: white;
     border-radius: 10px;
 }
 .navigation-menu:hover>.navigational-buttons{
     opacity: 1;
     pointer-events: auto;
-    padding-bottom: 100px;
 }
+
+
 
 .navigational-buttons{
     list-style: none;
@@ -34,13 +35,15 @@
     position: absolute;
     opacity: 0;
     pointer-events: none;
-    margin-top: 50px;
+    margin-top: px;
+    left: 0;
+    bottom: -122px;
 }
 .navigational-buttons li{
     margin: -2px;
 }
 .dropdown-but{
-    width: 150px;
+    width: 200px;
     background-color: white;
     border: 0.5px solid gray;
 }

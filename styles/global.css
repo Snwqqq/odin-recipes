@@ -7,7 +7,10 @@
 body{
     height: 2000px;
 }
-
+h1{
+    padding: 20px 0;
+    text-align: center;
+}
 .margin-container{
     display: flex;
     flex-direction: row;
