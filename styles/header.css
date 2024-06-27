@@ -1,0 +1,35 @@
+header{
+    display: flex;
+    gap:200px;
+    justify-content: center;
+    align-items: center;
+}
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+}
+.sub{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:8px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: white;
+    transition: background-color 0.5s,color 0.5s,border 0.5s, margin 0.02s;
+}
+.sub:hover{
+    background-color: rgb(255, 196, 4);
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.sub:active{
+    background-color: rgb(119, 91, 0);
+}
+
+
+
+.main-logo{
+    width: 200px;
+}
