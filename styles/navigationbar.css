@@ -1,0 +1,7 @@
+.navigation-bar{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
