@@ -4,4 +4,42 @@
     justify-content: center;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
+    align-items: center;
+    font-size: 16px;
+    padding: 15px 10px;
+    box-shadow: 2px 10px 8px rgba(0,0,0,0.15);
+}
+.navigation-menu{
+    position: relative;
+}
+
+.navigation-menu:hover{
+    background-color: rgb(255, 196, 4);
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+}
+.navigation-menu:hover>.navigational-buttons{
+    opacity: 1;
+    pointer-events: auto;
+    padding-bottom: 100px;
+}
+
+.navigational-buttons{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom:-122px;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+.navigational-buttons li{
+    margin: -2px;
+}
+.dropdown-but{
+    width: 150px;
+    background-color: white;
+    border: 0.5px solid gray;
 }
